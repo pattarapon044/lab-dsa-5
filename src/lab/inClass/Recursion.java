@@ -19,6 +19,9 @@ public class Recursion {
 		System.out.print("Enter POWER number : ");
 		int power = keyboard.nextInt();
 		System.out.println("Power of " + base + " by " + power + " is " + powerRecur(base, power));
+		
+		//I'm lazy to use while loop
+		main(new String[5]);
 	}
 	
 	public static void simRecur(int count) {
